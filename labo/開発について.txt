@@ -1,0 +1,2 @@
+ソース管理：Subversion
+・SVN-リポジトリURL：http://kazekima.no-ip.org/svn

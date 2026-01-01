@@ -1,0 +1,40 @@
+/*タイトル用*/
+.title{
+	border-style: solid;
+	border-width: 0px 0px 1px 10px;
+	border-color: #8db6cd;
+	padding: 5px;
+}
+
+/*黒枠で囲う*/
+.contentbox{
+	border-style: solid;
+	border-width: 1px;
+	border-color: brack;
+	padding: 1px;
+}
+
+/*文字強調ライン（使用は<span>タグを用いること）*/
+.underline  { border-bottom: solid  1px red; }
+.dotline    { border-bottom: dotted 1px red; }
+.doubleline { border-bottom: double 3px red; }
+.rectangle  { border:solid 1px red; }
+
+/*文字強調蛍光マーカー（使用は<span>タグを用いること）*/
+.marginmarker{
+	background-color: yellow;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+.largemarker{
+	background-color: yellow;
+	padding: 0.3em;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+.markerline{
+	background-color: yellow;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+	text-decoration: underline;
+}
